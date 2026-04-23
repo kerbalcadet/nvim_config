@@ -4,6 +4,14 @@ return {
     sources = {
       default = { "lsp", "path", "snippets", "buffer" },
     },
+    cmdline = {
+      enabled = true,
+      completion = {
+        menu = {
+          auto_show = true,
+        },
+      },
+    },
     keymap = {
       ["<CR>"] = { "fallback" },
       ["<Tab>"] = {
